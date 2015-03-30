@@ -1,0 +1,19 @@
+{{ "jquery.js" | asset_url | script_tag }}
+{{ "/assets/js/foundation.js" | asset_url | script_tag }}
+<script>
+$(document).foundation();
+</script>
+
+<script>
+	$(window).scroll(function() {
+		if ($(window).scrollTop() >= 100) {
+			$('header').addClass('scrolled');
+		} else {
+			$('header').removeClass('scrolled');
+		}
+	});
+
+	$(".IconMain").click(function() {
+		$("#Mainer").toggleClass("MainResp");
+	});
+</script>
