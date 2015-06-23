@@ -193,7 +193,8 @@ section#servicios .columns {
       margin-top: 0; } }
 
 section#portafolio {
-  background-color: #23243f; }
+  background-color: #23243f;
+  padding-bottom: 0; }
   section#portafolio h2 {
     color: #fff; }
   section#portafolio h4 {
@@ -209,9 +210,70 @@ section#portafolio {
       section#portafolio p {
         font-size: 0.85em;
         margin-bottom: 0.25em; } }
+  section#portafolio .slide {
+    margin-bottom: 4em; }
+  section#portafolio .ideas {
+    background-color: #ededed;
+    position: relative;
+    z-index: 1;
+    content: " ";
+    display: table;
+    width: 100%; }
+    section#portafolio .ideas:after, section#portafolio .ideas:before {
+      content: " ";
+      display: table; }
+    section#portafolio .ideas .columns {
+      height: 100%;
+      background-color: #FFF; }
+      section#portafolio .ideas .columns:first-child {
+        background-color: #ededed; }
+    section#portafolio .ideas .wide-text {
+      font-size: 8em;
+      font-weight: 700;
+      line-height: 0.85em;
+      padding: 0.35em 0;
+      max-width: 30.25em; }
+      section#portafolio .ideas .wide-text .magenta {
+        color: #9f1a49; }
+      section#portafolio .ideas .wide-text .pink {
+        color: #e32650; }
+      section#portafolio .ideas .wide-text .purple {
+        color: #3b3c63; }
+      @media (max-width: 780px) {
+        section#portafolio .ideas .wide-text {
+          font-size: 6em; } }
+      @media (max-width: 480px) {
+        section#portafolio .ideas .wide-text {
+          font-size: 4em; } }
+    section#portafolio .ideas .bullets {
+      padding: 3.15em 0;
+      max-width: 30.25em; }
+      section#portafolio .ideas .bullets ul {
+        padding: 0 0 0 1.75em;
+        list-style: none;
+        margin: 0; }
+        section#portafolio .ideas .bullets ul h4 {
+          color: #e32650;
+          font-size: 1.1em;
+          line-height: 1.25em;
+          margin: 0; }
+        section#portafolio .ideas .bullets ul p {
+          font-size: 0.85em; }
+        @media (max-width: 480px) {
+          section#portafolio .ideas .bullets ul img {
+            margin-top: 2em; } }
+        @media (max-width: 780px) {
+          section#portafolio .ideas .bullets ul {
+            padding: 0; } }
+        @media (max-width: 480px) {
+          section#portafolio .ideas .bullets ul {
+            padding: 0; } }
+      @media (max-width: 780px) {
+        section#portafolio .ideas .bullets {
+          padding: 1.15em 0; } }
 
 section#clientes {
-  padding-bottom: 0; }
+  padding: 0; }
   section#clientes h2 {
     color: #fff; }
   section#clientes .list {
